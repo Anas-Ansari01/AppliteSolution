@@ -7,10 +7,37 @@
   pointer-events: none;
 }
 
+:root {
+  /* Define color variables */
+  --primary-color: ##111827;
+  --secondary-color: ##9CA3AF;
+  --text-color: white;
+}
+
+.black{
+  color: var(--primary-color) !important;
+}
+
+.grey{
+  color: var(--secondary-color) !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.sans {
+  font-family: 'DM Sans' !important;
+}
+
+.roboto {
+  font-family: 'Roboto' !important;
+}
+
+.poppins {
+  font-family: 'poppins' !important;
 }
 
 .App-header {
